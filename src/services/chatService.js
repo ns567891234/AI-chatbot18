@@ -32,7 +32,7 @@ If the user asks something not covered by this data, politely decline to answer.
       },
       method: "POST",
       body: JSON.stringify({
-        model: "mistralai/Mistral-7B-Instruct-v0.2",
+        model: "Qwen/Qwen3.6-35B-A3B:featherless-ai",
         messages: apiMessages,
         max_tokens: 150
       }),
